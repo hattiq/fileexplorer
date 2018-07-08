@@ -55,7 +55,7 @@ TreeNode::~TreeNode()
 	{
 		delete node;
 	}
-	childNode.empty();
+	childNode.clear();
 }
 void TreeNode::addNode(const TreeNode & node)
 {
