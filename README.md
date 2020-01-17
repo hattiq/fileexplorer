@@ -2,7 +2,7 @@
 SFML C++ 
 Windows.h
 Windows
-Developed By : Husain Taj (PUCIT) , Attiq ur Rehman (PUCIT)
+Developed By : [Hussain Taj](https://github.com/HussainTaj-W) (PUCIT) , [Attiq ur Rehman](https://github.com/hattiq) (PUCIT)
 
 ## Demo
 https://www.youtube.com/watch?v=M8Qbw-aOkeg
