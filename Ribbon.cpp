@@ -4,7 +4,7 @@
 using namespace std;
 
 
-Ribbon::Ribbon(FolderView *fv, Vector2f & si)
+Ribbon::Ribbon(FolderView *fv, const Vector2f & si)
 {
 	buttons.emplace_back(RibbonButton(RibbonButton::NEW_FILE));
 	buttons.emplace_back(RibbonButton(RibbonButton::NEW_FOLDER));

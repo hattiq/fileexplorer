@@ -8,7 +8,7 @@ using namespace std;
 class Ribbon:public Control
 {
 public:
-	Ribbon(FolderView * fv,Vector2f & si);
+	Ribbon(FolderView * fv, const Vector2f & si);
 	void positionButtons();
 	void draw(RenderTarget &target, RenderStates states) const override;
 	virtual Control * handleEvent(Event event, Vector2f mousePos);

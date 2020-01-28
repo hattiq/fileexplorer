@@ -176,7 +176,7 @@ void Drive::loadDriveResources()
 
 void Drive::refreshGraphicalVariables()
 {
-	labelAndLetterTxt = ((label.length() == 0 ? String("Local Disk") : label) + " (" + rootPath.substr(0, 2) + ')');
+	labelAndLetterTxt = ((label.length() == 0 ? String("Local Disk") : String(label)) + " (" + rootPath.substr(0, 2) + ')');
 	if (label.length() > 0)
 	{
 		labelAndLetterTxt = label + " (" + rootPath.substr(0, 2) + ')';
