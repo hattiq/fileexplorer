@@ -52,6 +52,9 @@ private:
 	float verticalSpacing=10;
 	float horizontalSpacing = 10;
 
+	static const sf::Color flatColorConcrete;
+	static const sf::Color flatColorMidnightBlue;
+
 
 	//Non Graphical 
 	unsigned int driveType;

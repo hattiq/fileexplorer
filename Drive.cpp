@@ -9,6 +9,9 @@ Texture Drive::driveIcon;
 bool Drive::isDriveResourcesLoaded = false;
 Font Drive::driveFont;
 
+const sf::Color Drive::flatColorConcrete(149, 165, 166);
+const sf::Color Drive::flatColorMidnightBlue(41, 128, 185);
+
 Drive::Drive(const string & driveLetter)
 {
 	if (!isDriveResourcesLoaded)
@@ -111,8 +114,8 @@ void Drive::draw(RenderTarget &target, RenderStates states) const
 	txtDrive.setFillColor(Color::Black);
 	txtSpace.setFillColor(Color::Black);
 
-	rectGray.setFillColor(Color::Black);
-	rectBlue.setFillColor(Color::Blue);
+	rectGray.setFillColor(flatColorConcrete);
+	rectBlue.setFillColor(flatColorMidnightBlue);
 
 	target.draw(icon);
 	target.draw(txtLabel);
